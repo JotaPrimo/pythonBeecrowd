@@ -9,7 +9,7 @@ class TestHelloWOrldCase(unittest.TestCase):
     def test_hello_world(self):
         self.assertEqual(HelloWorld.hello_world(), "Hello World!")
 
-    def test_deve_retornar_false(self):
+    def test_deve_retornar_true_quando_frase_for_diferente(self):
         self.assertNotEqual(HelloWorld.hello_world(), "Hello Worlds!")
 
 

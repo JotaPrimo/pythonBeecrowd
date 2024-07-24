@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d5c61e7-145f-4873-8942-aea7bb8d27a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonBeecrowd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solucoes/HelloWorld.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solucoes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/HelloWorldTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solucoes/AreaOfCircle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solucoes/ExtremelyBasic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solucoes/SimpleSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AreaCircle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ExtremelyBasicTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/SimpleSumTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/HelloWorldTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HelloWorldTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +30,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2jcpLBLx8pUwly7eQHRWLjbFxcz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for AreaCircle.AreaCircleTest.executor": "Run",
+    "Python tests.Python tests for AreaCircle.AreaCircleTest.test_calculate_area_circle_deve_retornar_false.executor": "Run",
+    "Python tests.Python tests for SimpleSumTest.SimpleSumTestCase.executor": "Run",
+    "Python tests.Python tests for SimpleSumTest.SimpleSumTestCase.test_deve_retornar_true_quando_resultado_for_igual_40.executor": "Run",
+    "Python tests.Python tests for SimpleSumTest.SimpleSumTestCase.test_deve_retornar_true_quando_resultados_forem.executor": "Run",
+    "Python tests.Python tests in AreaCircle.py.executor": "Run",
+    "Python tests.Python tests in ExtremelyBasicTest.py.executor": "Run",
     "Python tests.Python tests in HelloWorldTest.py.executor": "Run",
     "Python.HelloWorld.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -54,6 +61,97 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for SimpleSumTest.SimpleSumTestCase.test_deve_retornar_true_quando_resultados_forem">
+    <configuration name="Python tests for AreaCircle.AreaCircleTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonBeecrowd" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;AreaCircle.AreaCircleTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for AreaCircle.AreaCircleTest.test_calculate_area_circle_deve_retornar_false" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonBeecrowd" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;AreaCircle.AreaCircleTest.test_calculate_area_circle_deve_retornar_false&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for SimpleSumTest.SimpleSumTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonBeecrowd" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;SimpleSumTest.SimpleSumTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for SimpleSumTest.SimpleSumTestCase.test_deve_retornar_true_quando_resultado_for_igual_40" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonBeecrowd" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;SimpleSumTest.SimpleSumTestCase.test_deve_retornar_true_quando_resultado_for_igual_40&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for SimpleSumTest.SimpleSumTestCase.test_deve_retornar_true_quando_resultados_forem" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonBeecrowd" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;SimpleSumTest.SimpleSumTestCase.test_deve_retornar_true_quando_resultados_forem&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for SimpleSumTest.SimpleSumTestCase.test_deve_retornar_true_quando_resultados_forem" />
+        <item itemvalue="Python tests.Python tests for SimpleSumTest.SimpleSumTestCase" />
+        <item itemvalue="Python tests.Python tests for SimpleSumTest.SimpleSumTestCase.test_deve_retornar_true_quando_resultado_for_igual_40" />
+        <item itemvalue="Python tests.Python tests for AreaCircle.AreaCircleTest" />
+        <item itemvalue="Python tests.Python tests for AreaCircle.AreaCircleTest.test_calculate_area_circle_deve_retornar_false" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,7 +168,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721696160178</updated>
-      <workItem from="1721696161542" duration="852000" />
+      <workItem from="1721696161542" duration="3630000" />
+      <workItem from="1721783511253" duration="82000" />
+      <workItem from="1721822729539" duration="2535000" />
     </task>
     <servers />
   </component>
@@ -79,6 +179,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonBeecrowd$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1721696268478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
-    <SUITE FILE_PATH="coverage/pythonBeecrowd$.coverage" NAME=" Coverage Results" MODIFIED="1721697004729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/pythonBeecrowd$.coverage" NAME=" Coverage Results" MODIFIED="1721824653900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>
