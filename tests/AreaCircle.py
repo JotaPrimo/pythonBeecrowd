@@ -2,7 +2,9 @@ import unittest
 
 from solucoes import AreaOfCircle
 
+
 class AreaCircleTest(unittest.TestCase):
+
     def test_deve_retornar_true_equals_doze(self):
         # cenario
         resultado_esperado = "A=12.5664"
@@ -26,7 +28,6 @@ class AreaCircleTest(unittest.TestCase):
 
         # assertion
         self.assertEqual(resultado_esperado, resutado_obtido)
-
 
     def test_calculate_area_circle_deve_retornar_false(self):
         # cenario

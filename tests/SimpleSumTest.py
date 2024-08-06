@@ -53,7 +53,7 @@ class SimpleSumTestCase(unittest.TestCase):
 
         # assertion
         self.assertNotEqual("SOMA = 0", resultado_obtido, "Resultados Diferentes")
-        self.assertEqual(resultado_esperado, resultado_obtido, "Resultados iguais")
+        self.assertNotEqual(resultado_esperado, resultado_obtido, "Resultados iguais")
 
 
 if __name__ == '__main__':

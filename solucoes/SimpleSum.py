@@ -5,4 +5,12 @@ class SimpleSum:
 
     def calculate(self):
         resultado = self.a + self.b
-        return f"SOMA = {resultado}"
+        print(f"SOMA = {resultado}")
+        # return f"SOMA = {resultado}"
+
+
+# a = int(input())
+# b = int(input())
+
+# soma_simples = SimpleSum(a, b)
+# soma_simples.calculate()
