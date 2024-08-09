@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d5c61e7-145f-4873-8942-aea7bb8d27a2" name="Changes" comment="Difference.py, AverageTwo.py, AverageTwo.py, e testes unitarios">
-      <change afterPath="$PROJECT_DIR$/solucoes/salary_with_bonus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_salary_with_bonus.py" afterDir="false" />
+    <list default="true" id="6d5c61e7-145f-4873-8942-aea7bb8d27a2" name="Changes" comment="salary_with_bonus.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solucoes/utils/number_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/solucoes/utils/number_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_salary.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_salary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_salary_with_bonus.TestSalaryWithBonus.test_calculate_bonus">
     <configuration name="salary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonBeecrowd" />
       <option name="ENV_FILES" value="" />
@@ -171,9 +167,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_salary_with_bonus.TestSalaryWithBonus.test_calculate_bonus" />
         <item itemvalue="Python tests.Python tests for test_salary.TestSalary.test_salary" />
         <item itemvalue="Python tests.Python tests for test_salary_with_bonus.SalaryWithBonusTest" />
-        <item itemvalue="Python tests.Python tests for test_salary_with_bonus.TestSalaryWithBonus.test_calculate_bonus" />
         <item itemvalue="Python tests.Python tests for test_salary_with_bonus.SalaryWithBonusTest.test_calculate_bonus" />
         <item itemvalue="Python.salary" />
       </list>
@@ -203,7 +199,7 @@
       <workItem from="1722979737652" duration="6348000" />
       <workItem from="1723067536512" duration="5380000" />
       <workItem from="1723151499436" duration="6990000" />
-      <workItem from="1723238641074" duration="4015000" />
+      <workItem from="1723238641074" duration="5657000" />
     </task>
     <task id="LOCAL-00001" summary="AverageOne.py e testes unitarios">
       <option name="closed" value="true" />
@@ -221,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723071035909</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="salary_with_bonus.py">
+      <option name="closed" value="true" />
+      <created>1723243427069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723243427069</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +245,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AverageOne.py e testes unitarios" />
     <MESSAGE value="Difference.py, AverageTwo.py, AverageTwo.py, e testes unitarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Difference.py, AverageTwo.py, AverageTwo.py, e testes unitarios" />
+    <MESSAGE value="salary_with_bonus.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="salary_with_bonus.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -255,8 +260,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonBeecrowd$salary_with_bonus.coverage" NAME="salary_with_bonus Coverage Results" MODIFIED="1723242592107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solucoes" />
-    <SUITE FILE_PATH="coverage/pythonBeecrowd$.coverage" NAME=" Coverage Results" MODIFIED="1723242446152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/pythonBeecrowd$salary_with_bonus.coverage" NAME="salary_with_bonus Coverage Results" MODIFIED="1723243016334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solucoes" />
+    <SUITE FILE_PATH="coverage/pythonBeecrowd$.coverage" NAME=" Coverage Results" MODIFIED="1723243193047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/pythonBeecrowd$salary.coverage" NAME="salary Coverage Results" MODIFIED="1723070689451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solucoes" />
     <SUITE FILE_PATH="coverage/pythonBeecrowd$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1721696268478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
   </component>
