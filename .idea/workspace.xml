@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d5c61e7-145f-4873-8942-aea7bb8d27a2" name="Changes" comment="AverageOne.py e testes unitarios">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solucoes/AverageTwo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solucoes/Difference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solucoes/salary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/AverageTwoTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_difference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_salary.py" afterDir="false" />
+    <list default="true" id="6d5c61e7-145f-4873-8942-aea7bb8d27a2" name="Changes" comment="Difference.py, AverageTwo.py, AverageTwo.py, e testes unitarios">
+      <change afterPath="$PROJECT_DIR$/solucoes/salary_with_bonus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_salary_with_bonus.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solucoes/utils/number_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/solucoes/utils/number_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_salary.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_salary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,21 +62,26 @@
     "Python tests.Python tests for test_salary.SalaryTest.executor": "Run",
     "Python tests.Python tests for test_salary.TestSalary.executor": "Run",
     "Python tests.Python tests for test_salary.TestSalary.test_salary.executor": "Run",
+    "Python tests.Python tests for test_salary_with_bonus.SalaryWithBonusTest.executor": "Run",
+    "Python tests.Python tests for test_salary_with_bonus.SalaryWithBonusTest.test_calculate_bonus.executor": "Run",
+    "Python tests.Python tests for test_salary_with_bonus.TestSalaryWithBonus.test_calculate_bonus.executor": "Run",
     "Python tests.Python tests in AreaCircle.py.executor": "Run",
     "Python tests.Python tests in ExtremelyBasicTest.py.executor": "Run",
     "Python tests.Python tests in HelloWorldTest.py.executor": "Run",
     "Python.HelloWorld.executor": "Run",
     "Python.salary.executor": "Run",
+    "Python.salary_with_bonus.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.salary">
+  <component name="RunManager">
     <configuration name="salary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonBeecrowd" />
       <option name="ENV_FILES" value="" />
@@ -104,54 +105,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_difference.TestDifference.test_calculate" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonBeecrowd" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_difference.TestDifference.test_calculate&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_salary.SalaryTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonBeecrowd" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_salary.SalaryTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_salary.TestSalary" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonBeecrowd" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_salary.TestSalary&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_salary.TestSalary.test_salary" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonBeecrowd" />
       <option name="ENV_FILES" value="" />
@@ -168,13 +121,61 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_salary_with_bonus.SalaryWithBonusTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonBeecrowd" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_salary_with_bonus.SalaryWithBonusTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_salary_with_bonus.SalaryWithBonusTest.test_calculate_bonus" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonBeecrowd" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_salary_with_bonus.SalaryWithBonusTest.test_calculate_bonus&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_salary_with_bonus.TestSalaryWithBonus.test_calculate_bonus" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonBeecrowd" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_salary_with_bonus.TestSalaryWithBonus.test_calculate_bonus&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.salary" />
         <item itemvalue="Python tests.Python tests for test_salary.TestSalary.test_salary" />
-        <item itemvalue="Python tests.Python tests for test_salary.TestSalary" />
-        <item itemvalue="Python tests.Python tests for test_salary.SalaryTest" />
-        <item itemvalue="Python tests.Python tests for test_difference.TestDifference.test_calculate" />
+        <item itemvalue="Python tests.Python tests for test_salary_with_bonus.SalaryWithBonusTest" />
+        <item itemvalue="Python tests.Python tests for test_salary_with_bonus.TestSalaryWithBonus.test_calculate_bonus" />
+        <item itemvalue="Python tests.Python tests for test_salary_with_bonus.SalaryWithBonusTest.test_calculate_bonus" />
+        <item itemvalue="Python.salary" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +201,9 @@
       <workItem from="1721925355079" duration="2720000" />
       <workItem from="1722893551613" duration="6402000" />
       <workItem from="1722979737652" duration="6348000" />
-      <workItem from="1723067536512" duration="3254000" />
+      <workItem from="1723067536512" duration="5380000" />
+      <workItem from="1723151499436" duration="6990000" />
+      <workItem from="1723238641074" duration="4015000" />
     </task>
     <task id="LOCAL-00001" summary="AverageOne.py e testes unitarios">
       <option name="closed" value="true" />
@@ -210,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722960740527</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Difference.py, AverageTwo.py, AverageTwo.py, e testes unitarios">
+      <option name="closed" value="true" />
+      <created>1723071035909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723071035909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,10 +240,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AverageOne.py e testes unitarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="AverageOne.py e testes unitarios" />
+    <MESSAGE value="Difference.py, AverageTwo.py, AverageTwo.py, e testes unitarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Difference.py, AverageTwo.py, AverageTwo.py, e testes unitarios" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/solucoes/utils/number_utils.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonBeecrowd$.coverage" NAME=" Coverage Results" MODIFIED="1723070235775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/pythonBeecrowd$salary_with_bonus.coverage" NAME="salary_with_bonus Coverage Results" MODIFIED="1723242592107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solucoes" />
+    <SUITE FILE_PATH="coverage/pythonBeecrowd$.coverage" NAME=" Coverage Results" MODIFIED="1723242446152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/pythonBeecrowd$salary.coverage" NAME="salary Coverage Results" MODIFIED="1723070689451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solucoes" />
     <SUITE FILE_PATH="coverage/pythonBeecrowd$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1721696268478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
   </component>

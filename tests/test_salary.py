@@ -2,6 +2,7 @@ import pytest
 
 from solucoes.salary import Salary
 
+
 class TestSalary:
     @pytest.mark.parametrize("numero_funcionario, horas_trabalhadas, valor_hora, resultado_esperado", [
         (25, 100, 5.50, "NUMBER = 25\n SALARY = U$ 550.00\n"),
